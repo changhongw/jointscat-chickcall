@@ -17,7 +17,7 @@ git clone https://github.com/changhongw/scatnet.git
 ## JTFS feature extraction
 python chickcall_JTFS_feature_extract.py
 
-## Run the notebooks
+## Run notebooks
 - chick call detection: <br>
 Detection_onset_segment.ipynb
 
