@@ -19,7 +19,7 @@ The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a 
 You can run directly on your own audio data or use the chick call data in the paper. The chick call dataset is available by contacting [Elisabetta Versace](https://www.preparedmindslab.org/people/elisabetta-versace) because they are currently under embargo for another publication. The recordings we used are listed in `file_names.txt`.  
 
 ### JTFS feature extraction
-`python chickcall_JTFS_feature_extract.py`
+`python JTFS_feature_extract.py`
 
 ### Run notebooks
 - chick call detection: <br>
