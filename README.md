@@ -12,7 +12,6 @@ Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabett
 
 ## Get ScatNet
 The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a MATLAB implementation of the scattering transform, with monior modifications: <br>
-
 `git clone https://github.com/changhongw/scatnet.git`
 
 ## Data
