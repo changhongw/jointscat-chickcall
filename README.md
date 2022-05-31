@@ -12,6 +12,7 @@ Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabett
 
 ### Get ScatNet
 `git clone https://github.com/changhongw/scatnet.git`<br>
+
 The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a MATLAB implementation of the scattering transform, with monior modifications. We can run scatnet in Python using [subprocess](https://docs.python.org/3/library/subprocess.html) module (see JTFS feature extraction below). 
 
 ### Data
