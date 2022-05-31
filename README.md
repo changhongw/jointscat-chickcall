@@ -4,33 +4,41 @@ Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabett
 
 # How to run
 ## Get code
-`git clone https://github.com/changhongw/jointscat_chickcall.git`
+```
+git clone https://github.com/changhongw/jointscat_chickcall.git
+```
 
 ## Install dependencies
-`conda create -n myenv python=3.1.17`<br>
-`conda install --file requirements.txt`
+```
+conda create -n myenv python=3.1.17
+conda install --file requirements.txt
+```
 
 ## Get ScatNet
-The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a MATLAB implementation of the scattering transform, with monior modifications: <br>
-`git clone https://github.com/changhongw/scatnet.git`
+The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a MATLAB implementation of the scattering transform, with monior modifications:
+```
+git clone https://github.com/changhongw/scatnet.git
+```
 
 ## Data
 You can run directly on your own audio data or use the chick call data in the paper. The chick call dataset is available by contacting [Elisabetta Versace](https://www.preparedmindslab.org/people/elisabetta-versace) because they are currently under embargo for another publication. The recordings we used are listed in `file_names.txt`.  
 
 ## JTFS feature extraction
-`python chickcall_JTFS_feature_extract.py`
+```
+python chickcall_JTFS_feature_extract.py
+```
 
 ## Run notebooks
 - chick call detection: <br>
-`Detection_onset_segment`
+`Detection_onset_segment.ipynb`
 
 - chick call recognition:  <br>
-`Scat_Only` <br>
-`Seg_Scat_annotated` <br>
-`Seg_Scat_detected` <br>
-`MFCC_Only` <br>
-`Seg_MFCC_annotated` <br>
-`Seg_MFCC_annotated` <br>
+`Scat_Only.ipynb` <br>
+`Seg_Scat_annotated.ipynb` <br>
+`Seg_Scat_detected.ipynb` <br>
+`MFCC_Only.ipynb` <br>
+`Seg_MFCC_annotated.ipynb` <br>
+`Seg_MFCC_annotated.ipynb` <br>
 
 # Citation
 ```
