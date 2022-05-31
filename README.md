@@ -2,33 +2,25 @@
 
 Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabetta Versace. [Joint Scattering for Automatic Chick Call Recognition](https://arxiv.org/abs/2110.03965), [IEEE European Signal Processing Conference](https://2022.eusipco.org/) (EUSIPCO), 2022.
 
-# How to run
-## Get code
-```
-git clone https://github.com/changhongw/jointscat_chickcall.git
-```
+## How to run
+### Get code
+`git clone https://github.com/changhongw/jointscat_chickcall.git`
 
-## Install dependencies
-```
-conda create -n myenv python=3.1.17
-conda install --file requirements.txt
-```
+### Install dependencies
+`conda create -n myenv python=3.1.17`<br>
+`conda install --file requirements.txt`
 
-## Get ScatNet
-The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a MATLAB implementation of the scattering transform, with monior modifications:
-```
-git clone https://github.com/changhongw/scatnet.git
-```
+### Get ScatNet
+The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a MATLAB implementation of the scattering transform, with monior modifications:<br>
+`git clone https://github.com/changhongw/scatnet.git`
 
-## Data
+### Data
 You can run directly on your own audio data or use the chick call data in the paper. The chick call dataset is available by contacting [Elisabetta Versace](https://www.preparedmindslab.org/people/elisabetta-versace) because they are currently under embargo for another publication. The recordings we used are listed in `file_names.txt`.  
 
-## JTFS feature extraction
-```
-python chickcall_JTFS_feature_extract.py
-```
+### JTFS feature extraction
+`python chickcall_JTFS_feature_extract.py`
 
-## Run notebooks
+### Run notebooks
 - chick call detection: <br>
 `Detection_onset_segment.ipynb`
 
@@ -40,7 +32,7 @@ python chickcall_JTFS_feature_extract.py
 `Seg_MFCC_annotated.ipynb` <br>
 `Seg_MFCC_annotated.ipynb` <br>
 
-# Citation
+## Citation
 ```
 @inproceedings{wang2022chickcall,
   title={Joint Scattering for Automatic Chick Call Recognition},
