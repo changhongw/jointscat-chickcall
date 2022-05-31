@@ -4,14 +4,14 @@ Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabett
 
 # How to run
 ## Get code
-git clone https://github.com/changhongw/jointscat_chickcall.git
+`git clone https://github.com/changhongw/jointscat_chickcall.git`
 
 ## Install dependencies
 `conda create -n myenv python=3.1.17`<br>
 `conda install --file requirements.txt`
 
 ## Get ScatNet
-The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a MATLAB implementation of the scattering transform, with monior modifications.
+The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a MATLAB implementation of the scattering transform, with monior modifications: <br>
 
 `git clone https://github.com/changhongw/scatnet.git`
 
