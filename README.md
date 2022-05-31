@@ -8,6 +8,7 @@ git clone https://github.com/changhongw/jointscat_chickcall.git
 
 ## Install dependencies
 `conda create -n myenv python=3.1.17`
+
 `conda install --file requirements.txt`
 
 ## Get ScatNet
@@ -17,8 +18,10 @@ git clone https://github.com/changhongw/scatnet.git
 python chickcall_JTFS_feature_extract.py
 
 ## Run the notebooks
+
 ### chick call detection: 
 Detection_onset_segment.ipynb
+
 ### chick call recognition: 
 - Scat_Only.ipynb
 - Seg_Scat_annotated.ipynb
