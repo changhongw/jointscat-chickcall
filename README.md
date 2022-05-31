@@ -33,9 +33,9 @@ You can run directly on your own audio data or use the chick call data in the pa
 `Seg_MFCC_annotated` <br>
 
 # Citation
-@article{wang2021joint,
+@inproceedings{wang2022chickcall,
   title={Joint Scattering for Automatic Chick Call Recognition},
   author={Wang, Changhong and Benetos, Emmanouil and Wang, Shuge and Versace, Elisabetta},
-  journal={arXiv preprint arXiv:2110.03965},
-  year={2021}
+  booktitle={IEEE European Signal Processing Conference (EUSIPCO)},
+  year={2022}
 }
