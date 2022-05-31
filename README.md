@@ -1,10 +1,10 @@
 # Joint scattering for chick call recognition
 
-Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabetta Versace. [https://arxiv.org/abs/2110.03965](Joint Scattering for Automatic Chick Call Recognition), [https://2022.eusipco.org/](IEEE European Signal Processing Conference) (EUSIPCO), 2022.
+Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabetta Versace. [Joint Scattering for Automatic Chick Call Recognition](https://arxiv.org/abs/2110.03965), [IEEE European Signal Processing Conference](https://2022.eusipco.org/) (EUSIPCO), 2022.
 
 # How to run
 # Clone package
-git clone https://github.com/changhongw/scatnet.git
+git clone https://github.com/changhongw/jointscat_chickcall.git
 
 ## Install dependencies
 `conda create -n myenv python=3.1.17`
