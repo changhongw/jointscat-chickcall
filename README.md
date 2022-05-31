@@ -7,7 +7,7 @@ Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabett
 `git clone https://github.com/changhongw/jointscat_chickcall.git`
 
 ### Install dependencies
-`conda create -n myenv python=3.1.17`<br>
+`conda create -n myenv python=3.7.13`<br>
 `conda install --file requirements.txt`
 
 ### Get ScatNet
