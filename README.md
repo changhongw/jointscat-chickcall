@@ -1,6 +1,6 @@
 # Joint scattering for chick call recognition
 
-Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabetta Versace. [Joint Scattering for Automatic Chick Call Recognition]([https://arxiv.org/abs/2110.03965](https://changhongw.github.io/publications/EUSIPCO22_chick_call_recognition.pdf)), [IEEE European Signal Processing Conference](https://2022.eusipco.org/) (EUSIPCO), 2022.
+Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabetta Versace. [Joint Scattering for Automatic Chick Call Recognition](https://changhongw.github.io/publications/EUSIPCO22_chick_call_recognition.pdf), [IEEE European Signal Processing Conference](https://2022.eusipco.org/) (EUSIPCO), 2022.
 
 ## How to run
 ### Get code
