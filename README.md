@@ -4,7 +4,7 @@ Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabett
 
 ## How to run
 ### Get code
-`git clone https://github.com/changhongw/jointscat_chickcall.git`
+`git clone https://github.com/changhongw/jointscat-chickcall.git`
 
 ### Install dependencies
 `conda create -n myenv python=3.7.13`<br>
