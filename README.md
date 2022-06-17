@@ -16,7 +16,7 @@ Code for the paper: Changhong Wang, Emmanouil Benetos, Shuge Wang, and Elisabett
 The code is based on [ScatNet](https://www.di.ens.fr/data/software/scatnet/), a MATLAB implementation of the scattering transform, with monior modifications. We can run scatnet in Python using [subprocess](https://docs.python.org/3/library/subprocess.html) module (see JTFS feature extraction below). 
 
 ### Data
-You can run directly on your own audio data or use the chick call data in the paper. The chick call dataset will be available after June 15th because they are currently under embargo for another publication. We will add the URL for the dataset here when it is publicly released. The recordings being used are listed in `file_names.txt`.
+You can run directly on your own audio data or use the chick call data in the paper. The chick call dataset is available for [downloading](https://zenodo.org/record/6655837). The recordings being used are listed in `file_names.txt`.
 
 ### JTFS feature extraction
 `python JTFS_feature_extract.py`
