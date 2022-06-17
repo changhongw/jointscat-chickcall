@@ -1,6 +1,6 @@
 clear all;clc
 addpath(genpath('./chickcall_dataset/')) % dataset
-addpath(genpath('../jointscat_chickcall/')) %
+addpath(genpath('../jointscat-chickcall/')) %
 run 'addpath_scatnet.m' % Scat code
 tic
 
